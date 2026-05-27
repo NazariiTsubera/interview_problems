@@ -152,7 +152,9 @@ class OrderController
 {
     public function placeOrder(array $payload): Response
     {
-       
+        return new Response(500, [
+            'error' => 'Not implemented'
+        ]);
     }
 }
 
